@@ -1,3 +1,24 @@
 /*
 //
 */
+
+.article {
+    display: flex;
+    flex-flow: column;
+    border: 1px solid black;
+    border-radius: .5em;
+    background-color: darkturquoise;
+}
+
+.article div {
+    text-align: center;
+    border: 1px solid green;
+    border-radius: .5em;
+    background-color: lightskyblue;
+    margin: 1em;
+    padding: 1em;
+
+
+button {
+    border-radius: .2em;
+}
